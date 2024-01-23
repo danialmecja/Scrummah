@@ -22,8 +22,10 @@ struct MeetingView: View {
                     Text("Seconds Remaining").font(.caption)
                     Label("600", systemImage: "hourglass.bottomhalf.fill")
                 }
-                
             }
+            .accessibilityElement(children: /*@START_MENU_TOKEN@*/.ignore/*@END_MENU_TOKEN@*/)
+            .accessibilityLabel("Time remaining")
+            .accessibilityValue("10 minutes")
             
             Circle()
                 .strokeBorder(lineWidth: 21.9)
@@ -33,6 +35,7 @@ struct MeetingView: View {
                 Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/) {
                     Image(systemName: "forward.fill")
                 }
+                .accessibilityLabel("Next speaker")
             }
         }
         .padding()
