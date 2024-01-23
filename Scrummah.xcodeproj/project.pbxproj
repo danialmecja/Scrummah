@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		25C6789E2B60092000002876 /* ScrummahApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25C6789D2B60092000002876 /* ScrummahApp.swift */; };
-		25C678A02B60092000002876 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25C6789F2B60092000002876 /* ContentView.swift */; };
+		25C678A02B60092000002876 /* MeetingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25C6789F2B60092000002876 /* MeetingView.swift */; };
 		25C678A22B60092100002876 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 25C678A12B60092100002876 /* Assets.xcassets */; };
 		25C678A52B60092100002876 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 25C678A42B60092100002876 /* Preview Assets.xcassets */; };
 		25C678AF2B60092200002876 /* ScrummahTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25C678AE2B60092200002876 /* ScrummahTests.swift */; };
@@ -36,7 +36,7 @@
 /* Begin PBXFileReference section */
 		25C6789A2B60092000002876 /* Scrummah.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Scrummah.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		25C6789D2B60092000002876 /* ScrummahApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrummahApp.swift; sourceTree = "<group>"; };
-		25C6789F2B60092000002876 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		25C6789F2B60092000002876 /* MeetingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingView.swift; sourceTree = "<group>"; };
 		25C678A12B60092100002876 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		25C678A42B60092100002876 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		25C678AA2B60092200002876 /* ScrummahTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScrummahTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -95,7 +95,7 @@
 			isa = PBXGroup;
 			children = (
 				25C6789D2B60092000002876 /* ScrummahApp.swift */,
-				25C6789F2B60092000002876 /* ContentView.swift */,
+				25C6789F2B60092000002876 /* MeetingView.swift */,
 				25C678A12B60092100002876 /* Assets.xcassets */,
 				25C678A32B60092100002876 /* Preview Content */,
 			);
@@ -257,7 +257,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				25C678A02B60092000002876 /* ContentView.swift in Sources */,
+				25C678A02B60092000002876 /* MeetingView.swift in Sources */,
 				25C6789E2B60092000002876 /* ScrummahApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
